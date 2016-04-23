@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Jess·Qiu的小站</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style/reset.css">
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<script type="text/javascript" src="js/main-js.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+		 jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){   
+          event.preventDefault();
+          $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+        });
+     		});
+	</script>
+</head>
+<body>
+<!-- side-left-begin -->
+	<div class="side-left">
+		<div class="sideLeft-img">
+			<img src="img/sideLeft-img.jpg">
+			<h2>Jess·Qiu</h2>
+			<p>Web front end novice</p>
+		</div>
+
+		<ul id="nav">
+			<li><a href="#home" class="side-left-active scroll">Welcome</a></li>
+			<li><a href="#about" class="scroll">About Me</a></li>
+			<li><a href="#gallery" class="scroll">My Gallery</a></li>
+		</ul>
+
+		<ol>
+			<li><a href="http://huaban.com/qiujincai/"><img src="img/icon/huaban.svg.png"></a></li>
+			<li><a href="http://wpa.qq.com/msgrd?v=3&uin=894812639&site=qq&menu=yes"><img src="img/icon/tencent QQ.svg.png"></a></li>
+			<li><a href="http://weibo.com/qjc1994630"><img src="img/icon/sina weibo.svg.png"></a></li>
+			<li><a href="mailto:qiujincai@outlook.com"><img src="img/icon/mail.svg.png"></a></li>
+		</ol>
+	</div>
+<!-- side-left-end-->
+
+<!-- side-right-begin -->
+	<div class="side-right" >
+		<div class="home" id="home">
+			<div class="banner-bg" id="bar-bg">
+				<div class="banner-overlay" ></div>
+				
+					<div id="img-wrap">
+						<img src="img/banner-1.jpg">
+						<img src="img/banner-2.jpg">
+						<img src="img/banner-3.jpg">
+					</div>
+				
+				<ol>
+					<li><a href="javascript:void(0)" index="1"></a></li>
+					<li><a href="javascript:void(0)" index="2"></a></li>
+					<li><a href="javascript:void(0)" index="3"></a></li>
+				</ol>
+				<div class="welcomeText">
+					<h3>Simple Design | Personal Portfolio</h3>
+					<p>This is a mobile friendly layout with Bootstrap v3.3.1 framework. Maecenas eu ante at nunc posuere fringilla sit amet non dolor. Proin condimentum fermentum nunc.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="about" id="about">
+			<div class="about-text">
+				<h2><b class="weight-font">简介</b>·About Me</h2>
+				<span></span>
+				<p>
+					邱进财<br/>
+					英文名 <b class="Roman-font">Jesse Qiu</b><br/>
+					现居 广东·惠州<br/>
+					<b class="color-dark-font">Web 前端开发工程师</b><br/>
+					<b class="small-font">专注前端开发
+					喜欢做设计，写代码，慢跑，健身<br/>
+					此网站是我的一份网页简历</b>
+				</p>
+			</div>
+
+			<div class="about-skills">
+				<h2>编程</h2>
+				<h3>Programming Skills</h3>
+				<ul>
+					<li>HTML+CSS</li>
+					<li>Javascript</li>
+					<li>Jquary</li>
+					<li>Node.js</li>
+				</ul>
+			</div>
+			<div class="about-btn">
+				<a href="#home" class="scroll">快联系我</a>
+				<a href="#gallery" class="scroll">来看作品</a>
+			</div>
+		</div>
+
+		<div class="gallery" id="gallery">
+			<h2>作品 · WEB OF WHAT I DO</h2>
+			<span></span>
+			<p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Maecenas et lorem molestie, maximus justo dignissim, cursus nisl. Nullam at ante quis ex pharetra pulvinar quis id dolor. Integer lorem odio, euismod ut sem sit amet, imperdiet condimentum diam.</p>
+
+			<div class="gallery-view" id="gallery-view">
+			
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="web/unoweb/index.html"class="gallery-view-hover">						
+						<h3>UNO·个人网站</h3>
+						<p>在Pixelhint.com下载的PSD用来练手</p>
+					</a>
+				</div>
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="javascript:void(0)"class="gallery-view-hover">						
+						<h3>做成的网页</h3>
+						<p>做成的网页</p>
+					</a>
+				</div>
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="javascript:void(0)"class="gallery-view-hover">						
+						<h3>做成的网页</h3>
+						<p>做成的网页</p>
+					</a>
+				</div>
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="javascript:void(0)"class="gallery-view-hover">						
+						<h3>做成的网页</h3>
+						<p>做成的网页</p>
+					</a>
+				</div>
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="javascript:void(0)"class="gallery-view-hover">						
+						<h3>做成的网页</h3>
+						<p>做成的网页</p>
+					</a>
+				</div>
+				<div class="gallery-item">
+					<img src="img/web-1.png" id="gallery-img">
+					<a href="javascript:void(0)"class="gallery-view-hover">						
+						<h3>做成的网页</h3>
+						<p>做成的网页</p>
+					</a>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="footer">
+			<p class="copyright">Copyright © 2016 Jess·Qiu <a class="scroll" href="#about">关于我</a></p>
+		</div>
+	</div>
+
+	
+<!-- side-right-end -->
+</body> 
+</html>
